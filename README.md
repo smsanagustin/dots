@@ -1,37 +1,45 @@
 # Dots
-For hyprland 
 
-# Installation
+A minimal rice for Hyprland!
 
-- Hyprland should be installed via `archinstall`
+| Preview                                   |
+| ----------------------------------------- |
+| ![Preview Image](./preview/preview_1.png) |
 
-# Packages used
+## Packages used
+
 - **Wallpaper** - `hyprpaper`
 - **Top bar** - `waybar`
 - **Lock screen** - `hyprlock`
 - **Screenshot tool** - `hyprshot`
 - **Image viewer** - Eye of gnome `eog`
-- Notification daemon - `dunst`
+- **Notification daemon** - `dunst`
+- **Menu** - `rofi-wayland`
+- **Code editor** - `neovim`
 
-# Link to themes
+## Link to themes
 
-### Spotify
-Theme from this [link](https://github.com/Astromations/Hazy) 
-```
-curl -fsSL https://raw.githubusercontent.com/Astromations/Hazy/main/install.sh | sh
-```
-### Neofetch theme 
-- axylfetch (https://github.com/Chick2D/neofetch-themes)
+#### Neofetch theme
 
-# Configuration
-### `bin` directory
-move `bin` to the system's PATH
+- axylfetch (<https://github.com/Chick2D/neofetch-themes>)
+
+#### Neovim
+
+- https://github.com/sainnhe/sonokai
+- **theme**: Andromeda
+
+## Other configuration
+
+#### Where to place `bin` directory
+
+- create a symlink to the system's path (i.e. `/usr/local`)
+
 ```
 sudo ln -sf ~/dots/bin/ /usr/local/
 ```
 
-### Where to place the `icons` direcotory
+#### Where to place the `icons` directory
+
 ```
 ln -sf ~/dots/icons/ ~/.local/share/
 ```
-

@@ -1,3 +1,0 @@
-return {
-  "bhurlow/vim-parinfer"
-}
