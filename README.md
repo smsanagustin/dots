@@ -8,7 +8,7 @@ For hyprland
 # Dependencies
 
 ```
-yay -S hyprpaper waybar spicetify-cli ewww
+yay -S hyprpaper waybar spicetify-cli dunst
 ```
 
 # Other themes
