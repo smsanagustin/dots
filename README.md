@@ -4,7 +4,7 @@ for hyprland
 
 # installation
 
-- hyprland should be installed via `archinstall`:
+- hyprland should be installed via `archinstall`
 
 # dependencies
 
@@ -23,5 +23,5 @@ curl -fsSL https://raw.githubusercontent.com/Astromations/Hazy/main/install.sh |
 ## `bin` directory
 move `bin` to the system's PATH
 ```
-sudo ln -sf ~/dots/bin/ /usr/local/"
+sudo ln -sf ~/dots/bin/ /usr/local/
 ```
