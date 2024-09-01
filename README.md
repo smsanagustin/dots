@@ -10,7 +10,8 @@ For hyprland
 - **Top bar** - `waybar`
 - **Lock screen** - `hyprlock`
 - **Screenshot tool** - `hyprshot`
-- **Image viewer** - Eye of gnome
+- **Image viewer** - Eye of gnome `eog`
+- Notification daemon - `dunst`
 
 # Link to themes
 
@@ -19,6 +20,8 @@ Theme from this [link](https://github.com/Astromations/Hazy)
 ```
 curl -fsSL https://raw.githubusercontent.com/Astromations/Hazy/main/install.sh | sh
 ```
+### Neofetch theme 
+- axylfetch (https://github.com/Chick2D/neofetch-themes)
 
 # Configuration
 ### `bin` directory
