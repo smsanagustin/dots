@@ -4,6 +4,7 @@
 * {
   font-family: FontAwesome, "JetBrainsMono Nerd Font";
   font-size: 13px;
+  font-weight: bold;
   margin: 2px;
   background: transparent;
 }
@@ -86,6 +87,7 @@ button:hover {
 }
 
 #clock,
+#custom-notification,
 #battery,
 #cpu,
 #memory,
@@ -116,6 +118,12 @@ button:hover {
 
 #workspaces {
   margin: 0 4px;
+}
+
+#custom-notification {
+  background: @green;
+  color: black;
+  padding: 0 15px 0 10px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */

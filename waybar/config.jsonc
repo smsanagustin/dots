@@ -9,6 +9,7 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
+    "custom/notification",
     "pulseaudio",
     "network",
     "keyboard-state",
@@ -200,4 +201,7 @@
       "hibernate": "systemctl hibernate",
     },
   },
+  "custom/notification": {
+    "format": ""
+  }
 }
