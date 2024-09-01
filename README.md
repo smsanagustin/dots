@@ -1,27 +1,31 @@
-# dots
+# Dots
+For hyprland 
 
-for hyprland
+# Installation
 
-# installation
+- Hyprland should be installed via `archinstall`
 
-- hyprland should be installed via `archinstall`
-
-# dependencies
+# Dependencies
 
 ```
 yay -S hyprpaper waybar spicetify-cli ewww
 ```
 
-# other themes
+# Other themes
 
-## spotify
+## Spotify
 Theme from this [link](https://github.com/Astromations/Hazy) 
 ```
 curl -fsSL https://raw.githubusercontent.com/Astromations/Hazy/main/install.sh | sh
 ```
-# configuration
+# Configuration
 ## `bin` directory
 move `bin` to the system's PATH
 ```
 sudo ln -sf ~/dots/bin/ /usr/local/
+```
+
+## Where to place the icons
+```
+ln -sf ~/dots/icons/ ~/.local/share/
 ```
