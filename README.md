@@ -5,27 +5,30 @@ For hyprland
 
 - Hyprland should be installed via `archinstall`
 
-# Dependencies
+# Packages used
+- **Wallpaper** - `hyprpaper`
+- **Top bar** - `waybar`
+- **Lock screen** - `hyprlock`
+- **Screenshot tool** - `hyprshot`
+- **Image viewer** - Eye of gnome
 
-```
-yay -S hyprpaper waybar spicetify-cli dunst hyprlock hyprshot
-```
+# Link to themes
 
-# Other themes
-
-## Spotify
+### Spotify
 Theme from this [link](https://github.com/Astromations/Hazy) 
 ```
 curl -fsSL https://raw.githubusercontent.com/Astromations/Hazy/main/install.sh | sh
 ```
+
 # Configuration
-## `bin` directory
+### `bin` directory
 move `bin` to the system's PATH
 ```
 sudo ln -sf ~/dots/bin/ /usr/local/
 ```
 
-## Where to place the icons
+### Where to place the `icons` direcotory
 ```
 ln -sf ~/dots/icons/ ~/.local/share/
 ```
+
