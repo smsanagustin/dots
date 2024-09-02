@@ -6,7 +6,7 @@
   font-size: 13px;
   font-weight: bold;
   margin: 2px;
-  background: transparent;
+  background: @base;
 }
 
 window#waybar {
@@ -29,6 +29,10 @@ window#waybar.solo {
     background-color: #FFFFFF;
 }
 */
+
+#window label {
+  background-color: transparent;
+}
 
 window#waybar.termite {
   background-color: #3f3f3f;
@@ -54,9 +58,9 @@ button:hover {
 }
 
 #workspaces button.active {
-  background: @peach;
-  color: @base;
+  color: @peach;
   border-radius: 50%;
+  box-shadow: inset 0 -1px @peach;
 }
 
 /* you can set a style on hover for any module like this */
