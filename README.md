@@ -23,6 +23,7 @@ A minimal rice for Hyprland!
 
 - **Wifi rofi script** - [Link](https://github.com/ericmurphyxyz/rofi-wifi-menu)
 - **Font used for waybar** - [Liga SFMono Nerd Font](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized/blob/main/README.md)
+- **Anime stream script** - [jerry](https://github.com/justchokingaround/jerry)
 
 ## Other themes
 
