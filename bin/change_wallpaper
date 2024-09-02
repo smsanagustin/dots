@@ -1,5 +1,5 @@
 #! /bin/sh
 
-chosen=$(ls ~/Images/Wallpapers/ | rofi -dmenu -i -theme-str '@import "config.rasi"')
+chosen=$(ls ~/Images/Wallpapers/ | rofi -dmenu -i -theme-str '@import "config.rasi"' -p "Choose wallpaper: ")
 
 swaybg -i "$HOME/Images/Wallpapers/${chosen}"

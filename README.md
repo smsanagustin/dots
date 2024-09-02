@@ -2,9 +2,13 @@
 
 A minimal rice for Hyprland!
 
-| Preview                                   |
+| Preview                                 |
+| --------------------------------------- |
+| ![Preview Image](./preview/preview.png) |
+
+| Lobster (with Rofi configured)            |
 | ----------------------------------------- |
-| ![Preview Image](./preview/preview_1.png) |
+| ![Lobster](./preview/lobster-preview.png) |
 
 ## Packages used
 
@@ -24,10 +28,11 @@ A minimal rice for Hyprland!
 - **Wifi rofi script** - [Link](https://github.com/ericmurphyxyz/rofi-wifi-menu)
 - **Font used for waybar** - [Liga SFMono Nerd Font](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized/blob/main/README.md)
 - **Anime stream script** - [jerry](https://github.com/justchokingaround/jerry)
+- **Movie/series stream script** - [lobster](https://github.com/justchokingaround/lobster)
 
 ## Other themes
 
-#### Neofetch theme
+#### Neofetch
 
 - axylfetch (<https://github.com/Chick2D/neofetch-themes>)
 
@@ -51,7 +56,3 @@ sudo ln -sf ~/dots/bin/ /usr/local/
 ```
 ln -sf ~/dots/icons/ ~/.local/share/
 ```
-
-#### WiFi Rofi Script
-
-#### Font used for waybar
