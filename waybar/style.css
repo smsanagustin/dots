@@ -2,7 +2,7 @@
 
 /* `otf-font-awesome` is required to be installed for icons */
 * {
-  font-family: FontAwesome, "JetBrainsMono Nerd Font";
+  font-family: FontAwesome, "Liga SFMono Nerd Font";
   font-size: 13px;
   font-weight: bold;
   margin: 2px;
@@ -150,6 +150,7 @@ button:hover {
 #clock {
   color: black;
   background: @sky;
+  font-size: 14px;
 }
 
 #battery,

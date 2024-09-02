@@ -8,6 +8,8 @@ A minimal rice for Hyprland!
 
 ## Packages used
 
+#### From AUR
+
 - **Wallpaper** - `hyprpaper`
 - **Top bar** - `waybar`
 - **Lock screen** - `hyprlock`
@@ -17,7 +19,12 @@ A minimal rice for Hyprland!
 - **Menu** - `rofi-wayland`
 - **Code editor** - `neovim`
 
-## Link to themes
+#### Others
+
+- **Wifi rofi script** - [Link](https://github.com/ericmurphyxyz/rofi-wifi-menu)
+- **Font used for waybar** - [Liga SFMono Nerd Font](https://github.com/shaunsingh/SFMono-Nerd-Font-Ligaturized/blob/main/README.md)
+
+## Other themes
 
 #### Neofetch theme
 
@@ -28,7 +35,7 @@ A minimal rice for Hyprland!
 - https://github.com/sainnhe/sonokai
 - **theme**: Andromeda
 
-## Other configurations
+## Notes
 
 #### Where to place `bin` directory
 
@@ -46,4 +53,4 @@ ln -sf ~/dots/icons/ ~/.local/share/
 
 #### WiFi Rofi Script
 
-- Link [here](https://github.com/ericmurphyxyz/rofi-wifi-menu)
+#### Font used for waybar
