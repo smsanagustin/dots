@@ -10,7 +10,7 @@ A minimal rice for Hyprland!
 
 #### From AUR
 
-- **Wallpaper** - `hyprpaper`
+- **Wallpaper** - `swaybg`
 - **Top bar** - `waybar`
 - **Lock screen** - `hyprlock`
 - **Screenshot tool** - `hyprshot`

@@ -2,4 +2,4 @@
 
 chosen=$(ls ~/Images/Wallpapers/ | rofi -dmenu -i -theme-str '@import "config.rasi"')
 
-echo "~/Images/Wallpapers/${chosen}"
+swaybg -i "$HOME/Images/Wallpapers/${chosen}"
