@@ -1,0 +1,5 @@
+#! /bin/sh
+
+chosen=$(ls ~/Images/Wallpapers/ | rofi -dmenu -i -theme-str '@import "config.rasi"')
+
+echo "~/Images/Wallpapers/${chosen}"
