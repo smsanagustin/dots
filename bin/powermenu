@@ -1,0 +1,11 @@
+#! /bin/sh
+
+chosen=$(printf "Power off\nRestart\nLock\nLog out" | rofi -dmenu -i -theme-str '@import "config.rasi"')
+
+case "$chosen" in
+	"Power off") poweroff ;;
+	"Restart") reboot ;;
+	"Lock") hyprlock ;;
+	"Log out") hyprctl dispatch exit ;;
+	*) exit 1 ;;
+esac

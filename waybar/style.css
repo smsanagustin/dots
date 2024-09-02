@@ -60,7 +60,7 @@ button:hover {
 
 #workspaces {
   background: #232839;
-  border-radius: 15px;
+  border-radius: 9px;
 }
 
 #workspaces button {
@@ -70,7 +70,7 @@ button:hover {
 
 #workspaces button:hover {
   background: rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
+  border-radius: 9px;
 }
 
 #workspaces button.focused {
@@ -107,12 +107,12 @@ button:hover {
 #mpd {
   padding: 0 10px;
   color: #ffffff;
-  border-radius: 15px;
+  border-radius: 9px;
 }
 
 #window {
   padding: 0 12px;
-  border-radius: 15px;
+  border-radius: 7px;
   background-color: @peach;
   color: black;
 }
@@ -125,6 +125,14 @@ button:hover {
   background: @green;
   color: black;
   padding: 0 15px 0 10px;
+  border-radius: 8px;
+}
+
+#custom-power {
+  background: white;
+  color: black;
+  padding: 0px 12px 0px 8px;
+  border-radius: 8px;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
@@ -135,7 +143,7 @@ button:hover {
 .modules-right,
 .modules-left {
   background-color: @base;
-  border-radius: 15px;
+  border-radius: 9px;
 }
 
 .modules-left {
