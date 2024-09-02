@@ -75,7 +75,8 @@ button:hover {
 
 #workspaces button.focused {
   background-color: @lavender;
-  box-shadow: inset 0 -3px #ffffff;}
+  box-shadow: inset 0 -3px #ffffff;
+}
 
 #workspaces button.urgent {
   background-color: #eb4d4b;
@@ -131,7 +132,8 @@ button:hover {
   margin-left: 0;
 }
 
-.modules-right, .modules-left {
+.modules-right,
+.modules-left {
   background-color: @base;
   border-radius: 15px;
 }
@@ -217,6 +219,10 @@ label:focus {
 #network,
 #network.disconnected {
   color: @yellow;
+}
+
+#bluetooth {
+  color: @sky;
 }
 
 #pulseaudio {

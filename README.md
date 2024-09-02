@@ -28,7 +28,7 @@ A minimal rice for Hyprland!
 - https://github.com/sainnhe/sonokai
 - **theme**: Andromeda
 
-## Other configuration
+## Other configurations
 
 #### Where to place `bin` directory
 
@@ -43,3 +43,7 @@ sudo ln -sf ~/dots/bin/ /usr/local/
 ```
 ln -sf ~/dots/icons/ ~/.local/share/
 ```
+
+#### WiFi Rofi Script
+
+- Link [here](https://github.com/ericmurphyxyz/rofi-wifi-menu)

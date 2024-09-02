@@ -1,16 +1,12 @@
 {
   "height": 20,
   "spacing": 5,
-  "modules-left": [
-    "hyprland/window",
-    "custom/media"
-  ],
-  "modules-center": [
-    "hyprland/workspaces"
-  ],
+  "modules-left": ["hyprland/window", "custom/media"],
+  "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "custom/notification",
     "pulseaudio",
+    "bluetooth",
     "network",
     "keyboard-state",
     "battery",
@@ -20,14 +16,14 @@
   "hyprland/workspaces": {
     "format": "{icon}",
     "format-icons": {
-      "active": " "
-    }
+      "active": " ",
+    },
   },
   "hyprland/window": {
     "format": "{initialTitle}",
     "rewrite": {
-      "": "Hyprland"
-    }
+      "": "Hyprland",
+    },
   },
   "keyboard-state": {
     "numlock": true,
@@ -35,8 +31,8 @@
     "format": "{name} {icon}",
     "format-icons": {
       "locked": "",
-      "unlocked": ""
-    }
+      "unlocked": "",
+    },
   },
   "mpd": {
     "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ⸨{songPosition}|{queueLength}⸩ {volume}% ",
@@ -45,78 +41,64 @@
     "unknown-tag": "N/A",
     "interval": 5,
     "consume-icons": {
-      "on": " "
+      "on": " ",
     },
     "random-icons": {
       "off": "<span color=\"#f53c3c\"></span> ",
-      "on": " "
+      "on": " ",
     },
     "repeat-icons": {
-      "on": " "
+      "on": " ",
     },
     "single-icons": {
-      "on": "1 "
+      "on": "1 ",
     },
     "state-icons": {
       "paused": "",
-      "playing": ""
+      "playing": "",
     },
     "tooltip-format": "MPD (connected)",
-    "tooltip-format-disconnected": "MPD (disconnected)"
+    "tooltip-format-disconnected": "MPD (disconnected)",
   },
   "idle_inhibitor": {
     "format": "{icon}",
     "format-icons": {
       "activated": "",
-      "deactivated": ""
-    }
+      "deactivated": "",
+    },
   },
   "tray": {
     // "icon-size": 21,
-    "spacing": 10
+    "spacing": 10,
   },
   "clock": {
     // "timezone": "America/New_York",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%I:%M %p}",
-    "format-alt": "{:%m-%d-%Y}"
+    "format-alt": "{:%m-%d-%Y}",
   },
   "cpu": {
     "format": "{usage}% ",
-    "tooltip": false
+    "tooltip": false,
   },
   "memory": {
-    "format": "{}% "
+    "format": "{}% ",
   },
   "temperature": {
     "critical-threshold": 80,
     "format": "{temperatureC}°C {icon}",
-    "format-icons": [
-      "",
-      "",
-      ""
-    ]
+    "format-icons": ["", "", ""],
   },
   "backlight": {
     // "device": "acpi_video1",
     "format": "{percent}% {icon}",
-    "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      "",
-      ""
-    ]
+    "format-icons": ["", "", "", "", "", "", "", "", ""],
   },
   "battery": {
     "states": {
       // "good": 95,
       "warning": 30,
-      "critical": 15
+      "critical": 15,
     },
     "format": "{capacity}% {icon}",
     "format-full": "{capacity}% {icon}",
@@ -125,16 +107,10 @@
     "format-alt": "{time} {icon}",
     // "format-good": "", // An empty format will hide the module
     // "format-full": "",
-    "format-icons": [
-      "",
-      "",
-      "",
-      "",
-      ""
-    ]
+    "format-icons": ["", "", "", "", ""],
   },
   "battery#bat2": {
-    "bat": "BAT2"
+    "bat": "BAT2",
   },
   "power-profiles-daemon": {
     "format": "{icon}",
@@ -148,12 +124,14 @@
     },
   },
   "network": {
-    "format-wifi": "{essid} ",
+    "format-wifi": "{essid} 󰤨",
     "format-ethernet": "{ipaddr}/{cidr} ",
     "tooltip-format": "{ifname} via {gwaddr} ",
     "format-linked": "{ifname} (No IP) ",
     "format-disconnected": "Disconnected ⚠",
-    "format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "format-disabled": "󰤭",
+    //"format-alt": "{ifname}: {ipaddr}/{cidr}",
+    "on-click": "rofi-wifi-menu",
   },
   "pulseaudio": {
     "format": "{volume}% {icon}  {format_source}",
@@ -169,14 +147,20 @@
       "phone": "",
       "portable": "",
       "car": "",
-      "default": [
-        "",
-        "",
-        ""
-      ],
+      "default": ["", "", ""],
     },
     "on-click": "pavucontrol",
   },
+
+  "bluetooth": {
+    "format": "{icon}",
+    "format-icons": {
+      "enabled": "",
+      "disabled": "!",
+    },
+    "on-click": "blueman-manager",
+  },
+
   "custom/media": {
     "format": "{icon} {}",
     "return-type": "json",
@@ -202,6 +186,6 @@
     },
   },
   "custom/notification": {
-    "format": ""
-  }
+    "format": "",
+  },
 }
