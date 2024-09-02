@@ -1,8 +1,8 @@
 {
   "height": 20,
   "spacing": 5,
-  "modules-left": ["hyprland/window", "custom/media"],
-  "modules-center": ["hyprland/workspaces"],
+  "modules-left": ["hyprland/window", "hyprland/workspaces", "custom/media"],
+  "modules-center": ["clock"],
   "modules-right": [
     "custom/notification",
     "pulseaudio",
@@ -11,7 +11,6 @@
     "keyboard-state",
     "battery",
     "battery#bat2",
-    "clock",
   ],
   "hyprland/workspaces": {
     "format": "{icon}",
