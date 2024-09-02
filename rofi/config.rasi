@@ -40,6 +40,10 @@ window {
     padding: 10px;
 }
 
+textbox {
+    text-color: @fg;
+}
+
 element {
   text-color: @fg;
   border-radius: 10px;
