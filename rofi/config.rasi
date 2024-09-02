@@ -36,7 +36,7 @@ window {
     background-color: @bg;
     text-color: @fg;
     width: 30%;
-    height: 30%;
+    height: 25%;
     padding: 10px;
 }
 
