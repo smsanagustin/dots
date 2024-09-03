@@ -10,8 +10,6 @@
 }
 
 window#waybar {
-  /*background-color: rgba(43, 48, 59, 0.5);
-    border-bottom: 3px solid rgba(100, 114, 125, 0.5); */
   color: #ffffff;
   transition-property: background-color;
   transition-duration: 0.5s;
@@ -20,15 +18,6 @@ window#waybar {
 window#waybar.hidden {
   opacity: 0.2;
 }
-
-/*
-window#waybar.empty {
-    background-color: transparent;
-}
-window#waybar.solo {
-    background-color: #FFFFFF;
-}
-*/
 
 #window label {
   background-color: transparent;
@@ -46,12 +35,10 @@ window#waybar.chromium {
 button {
   /* Use box-shadow instead of border so the text isn't offset */
   box-shadow: inset 0 -3px transparent;
-  /* Avoid rounded borders under each button name */
   border: none;
   border-radius: 0;
 }
 
-/* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
   background: inherit;
   box-shadow: inset 0 -3px #ffffff;
@@ -158,7 +145,6 @@ button:hover {
   padding: 1px;
 }
 
-/* If workspaces is the rightmost module, omit right margin */
 .modules-right > widget:last-child > #workspaces {
   margin-right: 0;
 }
