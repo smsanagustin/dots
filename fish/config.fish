@@ -67,5 +67,5 @@ function mkcd
     cd $argv[1]
 end
 
-zoxide init fish | source
-nvm use lts
+    zoxide init fish | source
+    nvm use lts
