@@ -32,10 +32,12 @@ entry {
 }
 
 window {
-    border-radius: 10px;
+    border-radius: 28px;
     background-color: @bg;
+    border: 8px solid; 
+    border-color: @highlight;
     text-color: @fg;
-    width: 30%;
+    width: 50%;
     height: 35%;
     padding: 10px;
 }

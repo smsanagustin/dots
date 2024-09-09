@@ -9,11 +9,11 @@ then
   then
     if [[ "$@" == *\?\? ]]
     then
-      coproc ( exo-open "${QUERY%\/* \?\?}"  > /dev/null 2>&1 )
+      coproc ( nautilus "${QUERY%\/* \?\?}"  > /dev/null 2>&1 )
       exec 1>&-
       exit;
     else
-      coproc ( exo-open "$@"  > /dev/null 2>&1 )
+      coproc ( nautilus "$@"  > /dev/null 2>&1 )
       exec 1>&-
       exit;
     fi
