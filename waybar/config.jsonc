@@ -24,7 +24,7 @@
     },
   },
   "clock": {
-    // "timezone": "America/New_York",
+    "timezone": "Asia",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
     "format": "{:%I:%M %p %B %d}",
   },
