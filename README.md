@@ -6,10 +6,6 @@ A minimal rice for Hyprland!
 | --------------------------------------- |
 | ![Preview Image](./preview/preview.png) |
 
-| Lobster (with Rofi configured)            |
-| ----------------------------------------- |
-| ![Lobster](./preview/lobster-preview.png) |
-
 ## Packages used
 
 #### From AUR
