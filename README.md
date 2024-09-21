@@ -1,10 +1,6 @@
 # Dots
 
-A minimal rice for Hyprland!
-
-| Preview                                 |
-| --------------------------------------- |
-| ![Preview Image](./preview/preview.png) |
+A minimal rice for Hyprland.
 
 ## Packages used
 
