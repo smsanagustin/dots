@@ -4,8 +4,8 @@
     follow = none
     width = (300, 500)              # (minimum width, max width)
     height = 600
-    origin = top-center
-    offset = 10x0
+    origin = top-right
+    offset = 10x12
     scale = 0
     notification_limit = 20
 
@@ -17,7 +17,7 @@
     progress_bar_max_width = 300
     progress_bar_corner_radius = 5  # 0 to disable
     progress_bar_corners = all      # which corner to round
-    highlight = "#a6da95"           # color of progress bar
+    highlight = "#c1aaec"           # color of progress bar
 
     indicate_hidden = yes           # how many notifs are hidden when limit is reached
     transparency = 0
@@ -25,8 +25,8 @@
     padding = 12
     horizontal_padding = 12
     text_icon_padding = 5
-    frame_width = 3
-    frame_color = "#a6da95"
+    frame_width = 2
+    frame_color = "#fff"
     gap_size = 3
     separator_color = frame
     sort = yes                      # how notifications will be sorted
@@ -77,7 +77,7 @@
     per_monitor_dpi = false
 
 [urgency_low]
-    background = "#232839"
+    background = "#000"
     foreground = "#ffffff"
     timeout = 3
 
@@ -85,7 +85,7 @@
     #default_icon = /path/to/icon
 
 [urgency_normal]
-    background = "#232839"
+    background = "#000"
     foreground = "#ffffff"
     timeout = 10
     override_pause_level = 30

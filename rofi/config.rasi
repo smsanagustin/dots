@@ -11,30 +11,30 @@ configuration {
 @theme "/dev/null" // so that the default theme wont override this current theme
 
 * {
-  bg: #232839;
+  bg: rgba(0, 0, 0, 85%);
   fg: #fff;
   fg-alt: #000;
-  highlight: #a6da95;
+  highlight: #c1aaec;
 
-  background-color: @bg;
   border: 0;
   margin: 2px;
   padding: 0;
   spacing: 0;
 }
 
-prompt {
+inputbar {
+    background-color: transparent;
+}
+
+entry, prompt, case-indicator {
+    background-color: transparent;
     text-color: @fg;
 }
 
-entry {
-  text-color: @fg;
-}
-
 window {
-    border-radius: 28px;
     background-color: @bg;
-    border: 8px solid; 
+    border-radius: 10px;
+    border: 1px solid; 
     border-color: @highlight;
     text-color: @fg;
     width: 50%;
@@ -42,13 +42,23 @@ window {
     padding: 10px;
 }
 
+mainbox {
+    background-color: transparent;
+}
+
+listview {
+    background-color: transparent;
+}
+
 textbox {
     text-color: @fg;
+    background-color: transparent;
 }
 
 element {
+  background-color: transparent;
   text-color: @fg;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 8px 6px;
 }
 
@@ -59,7 +69,7 @@ element-text {
 
 element-text selected {
     text-color: @fg-alt;
-    highlight: #71797e;
+    highlight: #fff;
 }
 
 element-icon {
