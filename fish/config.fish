@@ -67,5 +67,10 @@ function mkcd
     cd $argv[1]
 end
 
-    zoxide init fish | source
-    nvm use lts
+zoxide init fish | source
+nvm use lts
+
+# set up android sdk
+set -gx ANDROID_HOME /opt/android-sdk
+fish_add_path $ANDROID_HOME/tools
+fish_add_path $ANDROID_HOME/platform-tools
