@@ -1,6 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
 end
+set fish_greeting
 alias vim nvim
 alias vc "cd ~/.config/nvim && vim ."
 alias kb "vim ~/.config/hypr/keybindings.conf"
@@ -36,6 +37,7 @@ alias csc "spicetify config color_scheme"
 alias sa "spicetify apply"
 alias rh "hyprctl dispatch exit" # restart hyprland
 alias op nautilus
+alias nes "npx expo start"
 
 function ud
     cd ~/dots
@@ -68,7 +70,6 @@ function mkcd
 end
 
 zoxide init fish | source
-nvm use lts
 
 # set up android sdk
 set -gx ANDROID_HOME /opt/android-sdk
