@@ -7,4 +7,3 @@ vim.opt.guicursor = "n-v-i-c:block-Cursor"
 -- copy to clipboard when using yank
 -- yay -S xclip for xorg; yay -S wl-clipboard for wayland
 vim.opt.clipboard = "unnamedplus"
-vim.opt.background = "dark"

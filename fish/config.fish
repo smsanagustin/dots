@@ -38,6 +38,7 @@ alias sa "spicetify apply"
 alias rh "hyprctl dispatch exit" # restart hyprland
 alias op nautilus
 alias nes "npx expo start"
+alias frd "flutter run -d"
 
 function ud
     cd ~/dots
